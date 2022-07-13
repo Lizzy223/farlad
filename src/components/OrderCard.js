@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text, Button, Image } from '@chakra-ui/react';
+import { Box, Text,  Image } from '@chakra-ui/react';
 import img from './assets/la_address-card.svg';
 
 const OrderCard = () => {

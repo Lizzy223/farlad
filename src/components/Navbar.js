@@ -7,7 +7,6 @@ import {
   Stack,
   Button,
 } from '@chakra-ui/react';
-import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
 import React, { useState, useEffect, useRef } from 'react';
 import img1 from './assets/cart.png';
 import img2 from './assets/logo.png';

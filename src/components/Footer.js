@@ -13,7 +13,7 @@ import img2 from './assets/logo.png';
 import fb from './assets/iconoir_facebook-squared.svg';
 import twit from './assets/jam_twitter-circle.svg';
 import ig from './assets/fa6-brands_instagram.svg';
-import i from './assets/bi_info-circle.svg';
+// import i from './assets/bi_info-circle.svg';
 import thumb from './assets/ic_outline-thumb-up-alt.svg';
 
 const Footer = () => {
