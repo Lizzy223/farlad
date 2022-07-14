@@ -60,7 +60,7 @@ const Testimonial = () => {
         w={['100%', 'full']}
       >
         <Box
-          w={['25rem', '48.625rem']}
+          w={['22rem', '48.625rem']}
           h={['20rem', '26.5rem']}
           bg="#045902"
           position="relative"
@@ -87,8 +87,8 @@ const Testimonial = () => {
             <StarIcon color="#FFCE31" />
             <StarIcon color="#FFCE31" />
             <StarIcon color="#FFCE31" />
-            <StarIcon color="#FFCE31" />
-            <StarIcon color="#FFCE31" />
+            <StarIcon color="#FFF" />
+            <StarIcon color="#FFF" />
           </Box>
           <Box
             position="absolute"
@@ -101,7 +101,7 @@ const Testimonial = () => {
         </Box>
 
         <Box
-          w={['25rem', '48.625rem']}
+          w={['22rem', '48.625rem']}
           h={['20rem', '26.5rem']}
           mt='2rem'
           bg="#045902"

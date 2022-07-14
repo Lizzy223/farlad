@@ -30,15 +30,16 @@ const Footer = () => {
           />
 
           <Text color="#fff" mt='.5rem' mb='.5rem'>Subscribe for important updates</Text>
-          <HStack>
+          <HStack w='full'>
             <Input
               color="rgba(0, 0, 0, 0.47)"
               bg="#e5e5e5"
               type="text"
               border="none"
+              w={['100%','70%']}
               placeholder="Enter Email address here"
             />
-            <Button color="#e5e5e5" border="none" bg="#F90C0C">
+            <Button color="#e5e5e5" border="none" fontSize={['.7em','1em']} p='1rem' w={['50%', '30%']} bg="#F90C0C" _hover={{color:'#f90c0c', bg:'#fff', border:'1px solid #f90c0c'}} >
               Subscribe
             </Button>
           </HStack>

@@ -15,7 +15,7 @@ const TestimonialCard = () => {
       alignItems="center"
     >
     <Box
-      w={['25rem',"48.625rem"]}
+      w={['22rem',"48.625rem"]}
       h={['20rem',"26.5rem"]}
       bg="#045902"
       position='relative'

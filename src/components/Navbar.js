@@ -56,17 +56,15 @@ const Navbar = () => {
       h="5rem"
       justify="space-between"
       align="center"
-      px={['1rem', 16]}
       top="0"
       zIndex={5}
     >
-      <Box display={['block', 'none']} p="1rem" >
-        <HStack w="full" justifyContent="space-between">
-          <Box>
+      <Box display={['block', 'none']} px="1rem" >
+        <HStack w="full" alignItems='center' justifyContent="space-between">
+          <Box mb='.5rem'>
             <Image w="full" alt="logo" boxSize="3.5rem" src={img2} />
           </Box>
           <Box
-            ml="2rem"
             display={['block', 'none']}
             alignItems="flex-end"
             onClick={() => openMobileMenu()}
@@ -79,18 +77,16 @@ const Navbar = () => {
         direction={['column', 'row']}
         pos={['fixed', 'unset']}
         bgColor={['white', 'unset']}
-        width={['80%', 'auto']}
+        width={['85%', 'full']}
         left={isOpened ? '0' : '-100%'}
         top="0"
         height={['100vh', 'auto']}
         alignItems={['flex-start', 'center']}
         zIndex="3"
         transition={['all .5s ease', 'unset']}
-        justifyContent="space-between"
-        pt=".75rem"
-        pl="3rem"
-        pr="3rem"
-        spacing="16"
+        justifyContent="space-evenly"
+        gap="16"
+        pl={['1rem','0']}
       >
         <Image
           w="full"

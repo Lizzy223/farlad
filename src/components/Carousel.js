@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Text } from '@chakra-ui/react';
-import Card from './Card';
+import { Card1, Card2, Card3, Card4, Card5} from './Card';
 import Order from './Order'
 import {Navigation} from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -13,7 +13,7 @@ const Carousel = () => {
     <Box
       h="100%"
       w="full"
-      bg="#C4C4C4 "
+      bg="rgba(196, 196, 196, 0.28) "
       display="flex"
       flexDirection="column"
       justifyContent="space-evenly"
@@ -21,16 +21,18 @@ const Carousel = () => {
       overflow='hidden'
       p="1.2rem"
     >
-      <Text textAlign="center" fontWeight="600" fontSize="2.8rem">
+      <Text textAlign="center" fontWeight="600" fontSize={['2rem', "2.8rem"]}>
         Our menu
       </Text>
-      <Text textAlign="center" fontWeight="600" fontSize="1rem">
+      <Text textAlign="center" fontWeight={['500', "600"]} fontSize="1rem">
       Take a look at out menu to find out what you will like order
       </Text>
-      <Box flexDirection={['column','row']} justifyContent="space-evenly"
+      <Box 
+      flexDirection={['column','row']} 
+      justifyContent="space-evenly"
       alignItems="center"
       p="1.2rem"
-      display="flex"
+      display={[ 'none','none', "flex"]}
       w='full'
      >
         <Swiper
@@ -41,11 +43,30 @@ const Carousel = () => {
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         >
-        <SwiperSlide><Card/></SwiperSlide>
-        <SwiperSlide><Card/></SwiperSlide>
-        <SwiperSlide><Card/></SwiperSlide>
-        <SwiperSlide><Card/></SwiperSlide>
+        <SwiperSlide><Card1/></SwiperSlide>
+        <SwiperSlide><Card2/></SwiperSlide>
+        <SwiperSlide><Card3/></SwiperSlide>
+        <SwiperSlide><Card4/></SwiperSlide>
+        <SwiperSlide><Card5/></SwiperSlide>
         </Swiper>
+        
+      </Box>
+      <Box 
+      flexDirection={['column','column']} 
+      justifyContent="space-evenly"
+      alignItems="center"
+      p="1.2rem"
+      display={[ 'flex','flex', "none"]}
+      gap={6}
+      w='full'
+     >
+       
+        <><Card1/></>
+        <><Card2/></>
+        <><Card3/></>
+        <><Card4/></>
+        <><Card5/></>
+        
         
       </Box>
       <Order/>

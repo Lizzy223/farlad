@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Text } from '@chakra-ui/react';
-import OrderCard from './OrderCard';
+import {OrderCard1,OrderCard2, OrderCard3, OrderCard4} from './OrderCard';
 
 const Order = () => {
   return (
@@ -19,10 +19,10 @@ const Order = () => {
       display="flex"
       w='full'
       m="1rem">
-        <OrderCard/>
-        <OrderCard/>
-        <OrderCard/>
-        <OrderCard/>
+        <OrderCard1/>
+        <OrderCard2/>
+        <OrderCard3/>
+        <OrderCard4/>
       </Box>
     </Box>
   );
