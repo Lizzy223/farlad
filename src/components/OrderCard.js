@@ -49,7 +49,7 @@ export const OrderCard2 = () => {
       >
         <Image w="full" src={img2} alt="header" boxSize='2rem' />
         <Text fontSize="1.25em" fontWeight="600">
-          Sign up
+          Order
         </Text>
         <Text noOfLines={3} fontSize='.87rem' textAlign="center">
         After creating an account, you 
@@ -77,7 +77,7 @@ can select your prefer meals easily
       >
         <Image w="full" src={img3} alt="header" boxSize='2rem' />
         <Text fontSize="1.25em" fontWeight="600">
-          Sign up
+          Payment
         </Text>
         <Text noOfLines={3} fontSize='.87rem' textAlign="center">
         Pay for your meals securely 
@@ -105,7 +105,7 @@ other payment metyhod
       >
         <Image w="full" src={img4} alt="header" boxSize='2rem' />
         <Text fontSize="1.25em" fontWeight="600">
-          Sign up
+        Set location
         </Text>
         <Text noOfLines={3} fontSize='.87rem' textAlign="center">
         Set your  delivery location so
