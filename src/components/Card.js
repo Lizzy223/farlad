@@ -11,7 +11,7 @@ import img5 from './assets/Ellipse 6.svg';
 export const Card1 = () => {
   return (
     <Box
-      spacing="16"
+      spacing="25"
       w="14rem"
       h="20.1rem"
       bg="#fff"
@@ -23,16 +23,15 @@ export const Card1 = () => {
       p='1.2rem'
     >
       <Image w="full" src={img1} alt="header" />
-      <Text textAlign='center' fontWeight='500' noOfLines='2' fontSize="1.1em">Pounded Yam and Efo riro</Text>
+      <Text textAlign='center' fontWeight='500' whiteSpace='nowrap' noOfLines={['1','2']} fontSize="1.1em">Pounded Yam and Efo riro</Text>
       <Text textAlign='center' fontWeight='600' color="red"> #1500 </Text>
       <Button
         bg="#0C9509"
         w="90%"
-        fontSize={['.7rem', '1rem']}
+        fontSize={['1rem', '1rem']}
         borderRadius="20px"
         align="left"
         color="#fff"
-        p="1rem .75rem"
       >
         Add to cart
       </Button>
@@ -60,11 +59,11 @@ export const Card2 = () => {
       <Button
         bg="#0C9509"
         w="90%"
-        fontSize={['.7rem', '1rem']}
+        fontSize={['1rem', '1rem']}
         borderRadius="20px"
         align="left"
         color="#fff"
-        p="1rem .75rem"
+        
       >
         Add to cart
       </Button>
@@ -92,11 +91,11 @@ export const Card3 = () => {
       <Button
         bg="#0C9509"
         w="90%"
-        fontSize={['.7rem', '1rem']}
+        fontSize={['1rem', '1rem']}
         borderRadius="20px"
         align="left"
         color="#fff"
-        p="1rem .75rem"
+        
       >
         Add to cart
       </Button>
@@ -124,11 +123,11 @@ export const Card4 = () => {
       <Button
         bg="#0C9509"
         w="90%"
-        fontSize={['.7rem', '1rem']}
+        fontSize={['1rem', '1rem']}
         borderRadius="20px"
         align="left"
         color="#fff"
-        p="1rem .75rem"
+        
       >
         Add to cart
       </Button>
@@ -156,11 +155,11 @@ export const Card5 = () => {
       <Button
         bg="#0C9509"
         w="90%"
-        fontSize={['.7rem', '1rem']}
+        fontSize={['1rem', '1rem']}
         borderRadius="20px"
         align="left"
         color="#fff"
-        p="1rem .75rem"
+        
       >
         Add to cart
       </Button>

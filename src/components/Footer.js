@@ -18,54 +18,61 @@ import thumb from './assets/ic_outline-thumb-up-alt.svg';
 
 const Footer = () => {
   return (
-    <Box bg="#045902" w="full" h="33vh" p="1.5rem">
+    <Box bg="#045902" w="full"  p="1.5rem">
       <Box display="flex" flexWrap="wrap" >
-        <Box display="flex" w="50%" justifyContent='space-between' flexDirection="column">
+        <Box >
           <Image
-            w="full"
+            w="15%"
             alt="logo"
-            boxSize="5.5rem"
             display={['', '']}
             src={img2}
           />
 
-          <Text color="#fff" mt='.5rem' mb='.5rem'>Subscribe for important updates</Text>
-          <HStack w='full'>
+          <Text color="#fff" mt=".5rem" mb=".5rem">
+            Subscribe for important updates
+          </Text>
+          <HStack w="full">
             <Input
               color="rgba(0, 0, 0, 0.47)"
               bg="#e5e5e5"
               type="text"
               border="none"
-              w={['100%','70%']}
+              w={['100%', '70%']}
               placeholder="Enter Email address here"
             />
-            <Button color="#e5e5e5" border="none" fontSize={['.7em','1em']} p='1rem' w={['50%', '30%']} bg="#F90C0C" _hover={{color:'#f90c0c', bg:'#fff', border:'1px solid #f90c0c'}} >
+            <Button
+              color="#e5e5e5"
+              border="none"
+              fontSize={['1em', '1em']}
+              p="1rem"
+              w={['50%', '30%']}
+              bg="#F90C0C"
+              _hover={{
+                color: '#f90c0c',
+                bg: '#fff',
+                border: '1px solid #f90c0c',
+              }}
+            >
               Subscribe
             </Button>
           </HStack>
         </Box>
-        <Box
-          display="flex"
-          w="50%"
-          alignItems="flex-end"
-          spacing='1rem'
-          flexDirection="column"
-        >
-          <Text textAlign="left" fontWeight='600' color="#fff">
+        <Box display='flex' justifyContent='space-evenly' w='full' mt='.75rem' >
+          <Text textAlign="left" fontWeight="600" color="#fff">
             <Link href="">Home</Link>
           </Text>
-          <Text textAlign="left" fontWeight='600' color="#fff">
+          <Text textAlign="left" fontWeight="600" color="#fff">
             <Link href="">Menu</Link>
           </Text>
-          <Text textAlign="left" fontWeight='600' color="#fff">
+          <Text textAlign="left" fontWeight="600" color="#fff">
             <Link href="">About us</Link>
           </Text>
-          <Text textAlign="left" fontWeight='600' color="#fff">
+          <Text textAlign="left" fontWeight="600" color="#fff">
             <Link href="">Contact Us</Link>
           </Text>
-          <Text textAlign="left"  color="#fff">
+          <Text textAlign="left" color="#fff">
             <Link href="">Follow us</Link>
-          </Text>
+          
           <HStack>
             <Image
               w="full"
@@ -89,6 +96,7 @@ const Footer = () => {
               src={ig}
             />
           </HStack>
+          </Text>
         </Box>
         <HStack mt="1" w="full">
           <Box w="99%">

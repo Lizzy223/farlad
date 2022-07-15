@@ -38,7 +38,7 @@ const Carousel = () => {
         <Swiper
         navigation
         modules={[Navigation]}
-        spaceBetween={40}
+        spaceBetween={50}
         slidesPerView={4}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
@@ -52,10 +52,11 @@ const Carousel = () => {
         
       </Box>
       <Box 
-      flexDirection={['column','column']} 
+      flexDirection={['column','row','row','column']} 
       justifyContent="space-evenly"
       alignItems="center"
       p="1.2rem"
+      flexWrap='wrap'
       display={[ 'flex','flex', "none"]}
       gap={6}
       w='full'

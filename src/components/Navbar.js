@@ -10,7 +10,7 @@ import {
 import React, { useState, useEffect, useRef } from 'react';
 import img1 from './assets/cart.png';
 import img2 from './assets/logo.png';
-import img from './assets/arrowdown.png';
+// import img from './assets/arrowdown.png';
 import { BsBorderWidth } from 'react-icons/bs';
 
 
@@ -62,7 +62,7 @@ const Navbar = () => {
       <Box display={['block', 'none']} px="1rem" >
         <HStack w="full" alignItems='center' justifyContent="space-between">
           <Box mb='.5rem'>
-            <Image w="full" alt="logo" boxSize="3.5rem" src={img2} />
+            <Image w="20%" alt="logo"  src={img2} />
           </Box>
           <Box
             display={['block', 'none']}
@@ -89,9 +89,8 @@ const Navbar = () => {
         pl={['1rem','0']}
       >
         <Image
-          w="full"
+          w="10%"
           alt="logo"
-          boxSize="5.5rem"
           display={['', '']}
           src={img2}
         />
@@ -109,7 +108,7 @@ const Navbar = () => {
         >
           <HStack spacing="1">
             <Text>Menu</Text>
-            <Image src={img} alt="menu" boxSize=".75rem" />
+            {/* <Image src={img} alt="menu" boxSize=".75rem" /> */}
           </HStack>{' '}
         </Link>
         <Link
@@ -117,14 +116,14 @@ const Navbar = () => {
           fontWeight="600"
           _active={{ color: '#000' }}
         >
-          About us
+          About
         </Link>
         <Link
           color="rgba(0, 0, 0, 0.64)"
           fontWeight="600"
           _active={{ color: '#000' }}
         >
-          Contact us
+          Contact
         </Link>
         <Button
           borderRadius="8px"
@@ -135,9 +134,6 @@ const Navbar = () => {
         >
           Sign up
         </Button>
-        <Link>
-          <Image src={img1} boxSize="1.75rem" alt="cart" />
-        </Link>
       </Stack>
       
     </Box>

@@ -5,10 +5,10 @@ import img from './assets/headerimg.png';
 const Header = () => {
   return (
     <>
-      <Box w="100%" h="100vh">
+      <Box w="100%" h={['100vh','65vh','65vh', "100vh"]}>
         <Grid templateColumns={['repeat(1,1fr)', 'repeat(2,1fr)']} p="2rem">
-          <Box p="2.5rem">
-            <VStack alignItems="flex-start" spacing="3">
+          <Box p="1rem" >
+            <VStack alignItems="flex-start" spacing={['10','5',"3"]}>
               <Text
                 fontWeight="600"
                 fontSize={['1.6rem', '2.8rem']}
@@ -19,7 +19,7 @@ const Header = () => {
               </Text>
               <Text
                 fontWeight="400"
-                fontSize={['.7rem', '1rem']}
+                fontSize={['1rem', '1rem']}
                 lineHeight="2.25rem"
                 noOfLines={4}
                 textAlign="left"
@@ -32,8 +32,8 @@ const Header = () => {
               </Text>
               <Button
                 bg="#0C9509"
-                w={['50%', '25%']}
-                fontSize={['.7rem', '1rem']}
+                w={['50%','50%','50%', '25%']}
+                fontSize={['1rem', '1rem']}
                 borderRadius="8px"
                 align="left"
                 color="#fff"
@@ -49,7 +49,7 @@ const Header = () => {
             </VStack>
           </Box>
           <Box>
-            <Image w="full" src={img} alt="header" />
+            <Image w="100%" src={img} alt="header" />
           </Box>
         </Grid>
       </Box>

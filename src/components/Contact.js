@@ -87,7 +87,7 @@ const Contact = () => {
         <Button
         bg="#045902"
         w="45%"
-        fontSize={['.7rem', '1rem']}
+        fontSize={['1rem', '1rem']}
         borderRadius="20px"
         align="left"
         color="#fff"

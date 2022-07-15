@@ -15,7 +15,7 @@ const Order = () => {
       Follow the step below to order for great meal</Text>
       <Box flexDirection={['column','row']} justifyContent="space-evenly"
       alignItems="center"
-      p="1.2rem"
+      gap='4'
       display="flex"
       w='full'
       m="1rem">

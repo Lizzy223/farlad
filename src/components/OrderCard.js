@@ -9,8 +9,8 @@ export const OrderCard1 = () => {
   return (
     <Box
     spacing="16"
-    w="14rem"
-    h="15.1rem"
+    w="16rem"
+    h="20.1rem"
     borderRadius="20px"
       bg='#fff'
       display="flex"
@@ -24,7 +24,7 @@ export const OrderCard1 = () => {
       <Text fontSize="1.25em" fontWeight="600">
         Sign up
       </Text>
-      <Text noOfLines={3} fontSize='.87rem' textAlign="center">
+      <Text  fontSize='1rem' lineHeight='2rem' textAlign="center">
         You will have to create an account first in other to order for meals
         conveniently and have it delivered
       </Text>
@@ -36,8 +36,8 @@ export const OrderCard2 = () => {
     return (
       <Box
       spacing="16"
-      w="14rem"
-      h="15.1rem"
+      w="16rem"
+      h="20.1rem"
       borderRadius="20px"
         bg='#fff'
         display="flex"
@@ -51,7 +51,7 @@ export const OrderCard2 = () => {
         <Text fontSize="1.25em" fontWeight="600">
           Order
         </Text>
-        <Text noOfLines={3} fontSize='.87rem' textAlign="center">
+        <Text fontSize='1rem' lineHeight='2rem'  textAlign="center">
         After creating an account, you 
 will be automatically login and  you 
 can select your prefer meals easily
@@ -64,8 +64,8 @@ can select your prefer meals easily
     return (
       <Box
       spacing="16"
-      w="14rem"
-      h="15.1rem"
+      w="16rem"
+      h="20.1rem"
       borderRadius="20px"
         bg='#fff'
         display="flex"
@@ -79,7 +79,7 @@ can select your prefer meals easily
         <Text fontSize="1.25em" fontWeight="600">
           Payment
         </Text>
-        <Text noOfLines={3} fontSize='.87rem' textAlign="center">
+        <Text fontSize='1rem' lineHeight='2rem' textAlign="center">
         Pay for your meals securely 
 with your credit card or another 
 other payment metyhod
@@ -92,8 +92,8 @@ other payment metyhod
     return (
       <Box
       spacing="16"
-      w="14rem"
-      h="15.1rem"
+      w="16rem"
+      h="20.1rem"
       borderRadius="20px"
         bg='#fff'
         display="flex"
@@ -107,7 +107,7 @@ other payment metyhod
         <Text fontSize="1.25em" fontWeight="600">
         Set location
         </Text>
-        <Text noOfLines={3} fontSize='.87rem' textAlign="center">
+        <Text fontSize='1rem' lineHeight='2rem' textAlign="center">
         Set your  delivery location so
  your meals can be delivered to 
 you ASAP
